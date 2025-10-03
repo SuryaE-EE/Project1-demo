@@ -1,5 +1,6 @@
 # Use Amazon Linux 2023 base image
-FROM amazonlinux:2023
+FROM public.ecr.aws/amazonlinux/amazonlinux:2023
+
 
 # Install Apache (httpd) using dnf package manager
 RUN dnf install -y httpd && \
